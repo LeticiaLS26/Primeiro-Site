@@ -17,15 +17,20 @@
             margin: 0 auto;
             
         }
-        article{
+
+        article {
             display: flex;
+            text-align: justify;
+
+
         }
 
         img {
             width: 80px;
-            height: 80px;
+            height: 80px; 
+            margin-right: 8px;
         }
 
-        p {
+        .artigo-autor {
             font-weight: bold;
         }
