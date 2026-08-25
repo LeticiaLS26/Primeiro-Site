@@ -1,8 +1,14 @@
+ body{
+    max-width: 100vw;
+
+
+
+ }
+ 
  header {
             background-color: darkcyan;
             color: darkorange;
             text-align: center;
-            max-width: 800px;
             margin: 0 auto;
             border: 5px solid #e45706;
             padding: 16px;
@@ -13,15 +19,31 @@
             background-color: blanchedalmond;
             color: coral;
             text-align: center;
-            max-width: 800px;
             margin: 0 auto;
+            padding: 16px;
+            
+            display: flex;
+            flex-wrap: wrap;
             
         }
 
         article {
             display: flex;
             text-align: justify;
+            
 
+            border: 1px solid #e45706;
+
+            margin: 16px;
+            gap: 16px;
+            padding: 16px;
+
+            flex: 1 1 25%;
+
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content:center;
 
         }
 
